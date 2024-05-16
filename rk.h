@@ -9,7 +9,7 @@
 #include <string>
 #include <fstream>
 
-namespace RungeKutta4
+namespace ODE45
 {
 
     template <typename T>
