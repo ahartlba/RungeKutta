@@ -52,7 +52,7 @@ namespace ODE45
     }
 
     template <typename T>
-    void initial_condition(std::vector<T> &v, T ic)
+    void set_initial_condition(std::vector<T> &v, T ic)
     {
         v[0] = ic;
     }
